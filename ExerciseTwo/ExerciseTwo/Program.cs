@@ -10,7 +10,8 @@ namespace ExerciseTwo
     {
         static string userName, IdentificationNumber;
         static char gender;
-        static int age, monthlySalary;
+        static int age;
+        static double monthlySalary;
         static bool IsProgrammer;
 
         static void Main(string[] args)
@@ -73,7 +74,7 @@ namespace ExerciseTwo
             Console.WriteLine();
 
             Console.Write("What are your monthly salary ?: ");
-            monthlySalary = Convert.ToInt32(Console.ReadLine());
+            monthlySalary = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine();
         }
 
